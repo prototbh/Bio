@@ -1,98 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>proto proxy website</title>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        overflow: hidden;
-        position: relative;
-        /* Set background image */
-        background-image: url('https://raw.githubusercontent.com/hgxdhjsdgjahsgdhjs/hgsjdhgdsjhyt/main/IMG_0101.jpg');
-        /* Adjust background properties */
-        background-size: cover; /* Cover the entire viewport */
-        background-position: center; /* Center the background image */
-        background-repeat: no-repeat; /* Do not repeat the background image */
-    }
-    
-    #welcome-text {
-        position: absolute;
-        top: 40px; /* Adjust as needed */
-        left: 50%;
-        transform: translateX(-50%);
-        color: #9c0a7d;
-        font-size: 40px;
-        text-align: center;
-        font-family: Arial, sans-serif; /* Choose appropriate font family */
-        z-index: 100; /* Ensure text appears above overlay */
-    }
-
-    #download-text {
-        position: absolute;
-        bottom: 100px; /* Adjust as needed */
-        left: 60%;
-        transform: translateX(-50%);
-        color: #9c0a7d;
-        font-size: 26px;
-        font-family: Arial, sans-serif; /* Choose appropriate font family */
-        z-index: 100; /* Ensure text appears above overlay */
-    }
-
-    #download-text-left {
-        position: absolute;
-        bottom: 100px; /* Adjust as needed */
-        left: 40%;
-        transform: translateX(-50%);
-        color: #9c0a7d;
-        font-size: 26px;
-        font-family: Arial, sans-serif; /* Choose appropriate font family */
-        z-index: 100; /* Ensure text appears above overlay */
-    }
-    
-    .download-button {
-        position: absolute;
-        bottom: 20px; /* Adjust as needed */
-        background-color: #9c0a7d;
-        color: black;
-        padding: 15px 30px;
-        font-size: 24px;
-        border-radius: 30px; /* Adjust to make the corners rounder */
-        cursor: pointer;
-        z-index: 100; /* Ensure button appears above overlay */
-        transform: translateX(-50%);
-    }
-
-    #download-button-left {
-        left: 40%; /* Adjust to position it closer to the center */
-    }
-
-    #download-button-right {
-        left: 60%; /* Adjust to position it closer to the center */
-    }
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <style>
+        body {
+            background-image: url('https://raw.githubusercontent.com/prototbh/Bio/main/IMG_0191.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+    </style>
 </head>
 <body>
-<div id="welcome-text">Welcome to protos download page</div>
-<div id="download-text">Download proto-proxy</div>
-<div id="download-text-left">Download hex decoder</div>
-<button id="download-button-left" class="download-button" onclick="downloadZip()">Download 1 </button>
-<button id="download-button-right" class="download-button">Download 2 </button>
-
-<script>
-function downloadZip() {
-    var link = document.createElement("a");
-    link.href = "https://github.com/proto-proxy/protos-hex-decoder-update-/archive/refs/tags/v4.zip";
-    link.download = "protos-hex-decoder.zip";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
-</script>
-
+    
 </body>
 </html>
