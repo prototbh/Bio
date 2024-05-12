@@ -14,6 +14,8 @@
             padding: 0;
             height: 100vh;
             position: relative;
+            color: white;
+            font-family: Arial, sans-serif;
         }
         .overlay {
             position: absolute;
@@ -33,16 +35,15 @@
             transform: translateX(-50%);
             border-radius: 5px; /* Rounded edges */
         }
-
-            .text-overlay {
-    position: absolute;
-    top: 165px; /* Adjusted position */
-    left: 85px;
-    transform: translateX(-50%);
-    color: white;
-    font-weight: bold;
-    font-size: 27px; /* Adjusted font size */
-}
+        .text-overlay {
+            position: absolute;
+            top: 165px; /* Adjusted position */
+            left: 85px;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: bold;
+            font-size: 27px; /* Adjusted font size */
+        }
         .image-overlay {
             position: absolute;
             top: 26px; /* Adjusted position */
@@ -55,6 +56,14 @@
             background-position: center;
             border-radius: 50px; /* Rounded edges */
         }
+        .welcome-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 24px;
+        }
     </style>
 </head>
 <body>
@@ -62,5 +71,6 @@
     <div class="vertical-line"></div>
     <div class="image-overlay"></div>
     <div class="text-overlay">proto</div>
+    <div class="welcome-text">Hello, welcome to my page</div>
 </body>
 </html>
