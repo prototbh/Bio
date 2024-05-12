@@ -25,17 +25,18 @@
             height: 1000px;
             background-color: rgba(0, 0, 0, 0.3); /* 30% opacity black */
         }
-        .vertical-line {
-            position: absolute;
-            top: 15px; /* Adjusted position */
-            left: 50%;
-            width: 310px;
-            height: 95%;
-            background-color: black;
-            transform: translateX(-50%);
-            border-radius: 5px; /* Rounded edges */
-        }
-        .horizontal-line {
+            .vertical-line {
+    position: absolute;
+    top: 15px; /* Adjusted position */
+    left: 50%;
+    width: 310px;
+    height: 100vh; /* Set height to 100% of viewport height */
+    max-height: 95%; /* Set max-height to ensure it doesn't overflow */
+    background-color: black;
+    transform: translateX(-50%);
+    border-radius: 5px; /* Rounded edges */
+}
+
             position: absolute;
             top: 400px; /* Place it in the middle vertically */
             left: 52px;
