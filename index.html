@@ -22,26 +22,24 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 1000px;
+            height: 100%;
             background-color: rgba(0, 0, 0, 0.3); /* 30% opacity black */
         }
-.vertical-line {
-    position: fixed;
-    top: 15px;
-    left: 50%;
-    width: 2px; /* Adjusted width */
-    height: 80%; /* Adjusted height */
-    background-color: black;
-    transform: translateX(-50%);
-    border-radius: 5px;
-}
-
-
+        .vertical-line {
+            position: absolute;
+            top: 15px; /* Adjusted position */
+            left: 50%;
+            width: 310px;
+            height: 95%;
+            background-color: black;
+            transform: translateX(-50%);
+            border-radius: 5px; /* Rounded edges */
+        }
         .horizontal-line {
             position: absolute;
-            top: 400px; /* Place it in the middle vertically */
-            left: 52px;
-            width: 270px;
+            top: 50%; /* Place it in the middle vertically */
+            left: 0;
+            width: 100%;
             height: 1px; /* Adjust the height of the line */
             background-color: rgba(255, 255, 255, 0.5); /* Faint white color with some transparency */
         }
