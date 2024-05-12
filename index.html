@@ -25,20 +25,19 @@
             height: 1000px;
             background-color: rgba(0, 0, 0, 0.3); /* 30% opacity black */
         }
-            .vertical-line {
-    position: absolute;
-    top: 15px; /* Adjusted position */
-    left: 50%;
-    width: 310px;
-    height: 100vh; /* Set height to 100% of viewport height */
-    max-height: 95%; /* Set max-height to ensure it doesn't overflow */
-    background-color: black;
-    transform: translateX(-50%);
-    border-radius: 5px; /* Rounded edges */
-}
-
+        .vertical-line {
             position: absolute;
-            top: 400px; /* Place it in the middle vertically */
+            top: 15px; /* Adjusted position */
+            left: 50%;
+            width: 310px;
+            height: 95%;
+            background-color: black;
+            transform: translateX(-50%);
+            border-radius: 5px; /* Rounded edges */
+        }
+        .horizontal-line {
+            position: absolute;
+            top: 1000px; /* Place it in the middle vertically */
             left: 52px;
             width: 270px;
             height: 1px; /* Adjust the height of the line */
@@ -82,5 +81,6 @@
     <div class="image-overlay"></div>
     <div class="text-overlay">proto</div>
     <div class="welcome-text">Hello, my name is elijah/proto, and I am a software developer from PA. I have basic knowledge of Python, C# & HTML. I am 13 and IAFF</div>
+    <div class="horizontal-line222"></div>
 </body>
 </html>
