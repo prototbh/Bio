@@ -35,6 +35,14 @@
             transform: translateX(-50%);
             border-radius: 5px; /* Rounded edges */
         }
+        .horizontal-line {
+            position: absolute;
+            top: 50%; /* Place it in the middle vertically */
+            left: 0;
+            width: 100%;
+            height: 1px; /* Adjust the height of the line */
+            background-color: rgba(255, 255, 255, 0.5); /* Faint white color with some transparency */
+        }
         .text-overlay {
             position: absolute;
             top: 165px; /* Adjusted position */
@@ -69,6 +77,7 @@
 <body>
     <div class="overlay"></div>
     <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
     <div class="image-overlay"></div>
     <div class="text-overlay">proto</div>
     <div class="welcome-text">Hello, my name is elijah/proto, and I am a software developer from PA. I have basic knowledge of Python, C# & HTML. I am 13 and IAFF</div>
