@@ -34,15 +34,15 @@
             border-radius: 5px; /* Rounded edges */
         }
 
-            .text-overlay {
-    position: absolute;
-    top: 165px; /* Adjusted position */
-    left: 85px;
-    transform: translateX(-50%);
-    color: white;
-    font-weight: bold;
-    font-size: 27px; /* Adjusted font size */
-}
+        .text-overlay {
+            position: absolute;
+            top: 165px; /* Adjusted position */
+            left: 85px;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: bold;
+            font-size: 27px; /* Adjusted font size */
+        }
         .image-overlay {
             position: absolute;
             top: 26px; /* Adjusted position */
@@ -55,12 +55,25 @@
             background-position: center;
             border-radius: 50px; /* Rounded edges */
         }
+        .second-image-overlay {
+            position: absolute;
+            top: 165px; /* Adjusted position */
+            left: 220px; /* Adjusted position */
+            width: 100px; /* Adjusted size */
+            height: 100px; /* Adjusted size */
+            background-image: url('https://raw.githubusercontent.com/prototbh/Bio/main/IMG_0195.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 50px; /* Rounded edges */
+        }
     </style>
 </head>
 <body>
     <div class="overlay"></div>
     <div class="vertical-line"></div>
     <div class="image-overlay"></div>
+    <div class="second-image-overlay"></div>
     <div class="text-overlay">proto</div>
 </body>
 </html>
