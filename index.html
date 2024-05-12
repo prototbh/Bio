@@ -25,15 +25,17 @@
             height: 1000px;
             background-color: rgba(0, 0, 0, 0.3); /* 30% opacity black */
         }
-        .vertical-line {
-    position: absolute;
-    top: 15px; /* Adjusted position */
+.vertical-line {
+    position: fixed;
+    top: 15px;
     left: 50%;
-    width: 310px;
+    width: 2px; /* Adjusted width */
+    height: 80%; /* Adjusted height */
     background-color: black;
     transform: translateX(-50%);
-    border-radius: 5px; /* Rounded edges */
+    border-radius: 5px;
 }
+
 
         .horizontal-line {
             position: absolute;
