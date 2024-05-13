@@ -86,6 +86,14 @@
     <div class="welcome-text">Hello, my name is elijah/proto, and I am a software developer from PA. I have basic knowledge of Python, C# & HTML. I am 13 and IAFF</div>
 
     <!-- Embedding youtube vid -->
-    <iframe class="youtube-embed" src="https://www.youtube.com/embed/cdPhQqdmbnw?autoplay=1" width="200" height="280" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/cdPhQqdmbnw" width="200" height="280" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+    <script>
+        // Auto play the video when the page loads
+        window.onload = function() {
+            var iframe = document.querySelector('.youtube-embed');
+            iframe.src += "&autoplay=1";
+        };
+    </script>
 </body>
 </html>
