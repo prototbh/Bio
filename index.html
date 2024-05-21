@@ -65,13 +65,28 @@
             background-position: center;
             border-radius: 50px; /* Rounded edges */
         }
-        .image-overlay2 {
+
+                .image-overlay2 {
             position: absolute;
             top: 82%; /* Adjusted position */
             left: 162px; /* Adjusted position */
             width: 50px; /* Adjusted size */
             height: 50px; /* Adjusted size */
             background-image: url('https://raw.githubusercontent.com/prototbh/Bio/main/IMG_0290.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 45%; /* Rounded edges */
+            box-shadow: 0 0 7px 2px rgba(255, 255, 255, 0.7); /* Glow effect */
+            cursor: pointer; /* Make it look clickable */
+        }
+        .image-overlay3 {
+            position: absolute;
+            top: 82%; /* Adjusted position */
+            left: 182px; /* Adjusted position */
+            width: 50px; /* Adjusted size */
+            height: 50px; /* Adjusted size */
+            background-image: url('https://raw.githubusercontent.com/prototbh/Bio/main/IMG_0370.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -111,6 +126,7 @@
     <div class="horizontal-line"></div>
     <div class="image-overlay"></div>
     <div class="image-overlay2" onclick="copyTextToClipboard('thepimp.com69')"></div>
+    <div class="image-overlay3"></div>
     <div class="text-overlay">proto</div>
     <div class="mc-tools-link">link to my minecraft tools (coming soon)</div>
     <div class="proto-proxy-link">link to my fortnite cheats https://proto-proxy.github.io/proto-proxy-web/</div>
